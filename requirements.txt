@@ -1,0 +1,29 @@
+# Install into a venv: pip install -r requirements.txt
+# Pin versions when you install (pip freeze > requirements.txt) if you want reproducibility.
+#
+# Core LCEL / chat
+langchain
+langchain-core
+langchain-openai
+#
+# Community helpers (loaders, chat message history, etc.)
+langchain-community
+#
+# Text splitting (Stage 3)
+langchain-text-splitters
+#
+# Local vector store (Stage 3)
+langchain-chroma
+chromadb
+#
+# Agents / checkpointer (Stage 4)
+langgraph
+#
+# Structured output models (Stage 5) — usually pulled in transitively; list explicitly if needed
+pydantic
+#
+# Env loading
+python-dotenv
+#
+# Optional: only if you later add PDFs instead of markdown
+# pypdf
