@@ -1,4 +1,4 @@
-# LangChain learning stages (OpenAI)
+# LangChain learning stages (Hugging Face)
 
 Progressive scripts under `stages/`. Implement one stage at a time; each file’s comments describe what to build.
 
